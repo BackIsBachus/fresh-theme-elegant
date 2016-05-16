@@ -1,0 +1,16 @@
+{
+  "name": "fresh-theme-elegant-test",
+  "version": "0.1.0",
+  "description": "fresh-theme-elegant-test",
+  "repository": "https://github.com/BackIsBachus/fresh-theme-elegant/test",
+  "author": "BackIsBachus (https://github.com/BackIsBachus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BackIsBachus/fresh-theme-elegant/issues"
+  },
+  "homepage": "https://github.com/BackIsBachus/fresh-theme-elegant#readme",
+  "devDependencies": {
+    "fresh-theme-elegant": "../",
+    "hackmyresume": "^1.8.0"
+  }
+}

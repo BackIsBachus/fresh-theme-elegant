@@ -1,0 +1,14 @@
+<a href="#" class="js-floating-nav-trigger floating-nav-trigger"><i class="fa fa-bars"></i><span class="close-icon">&times;</span></a>
+<nav class="floating-nav js-floating-nav">
+  <ul class="list-unstyled">
+    {{#if r.info.brief}}<li><a href="#about"><i class="mr-10 fa fa-user"></i>About</a></li>{{/if}}
+    {{#if r.employment}}<li><a href="#work-experience"><i class="mr-10 fa fa-building"></i>Work Experience</a></li>{{/if}}
+    {{#if r.skills}}<li><a href="#skills"><i class="mr-10 fa fa-gears"></i>Skills</a></li>{{/if}}
+    {{#if r.education}}<li><a href="#education"><i class="mr-10 fa fa-graduation-cap"></i>Education</a></li>{{/if}}
+    {{#if r.projects}}<li><a href="#projects"><i class="mr-10 fa fa-star"></i>Projects</a></li>{{/if}}
+    {{#if r.service}}<li><a href="#volunteer-work"><i class="mr-10 fa fa-child"></i>Volunteer Work</a></li>{{/if}}
+    {{#if r.interests}}<li><a href="#interests"><i class="mr-10 fa fa-heart"></i>Interests</a></li>{{/if}}
+    {{#if r.recognition}}<li><a href="#awards"><i class="mr-10 fa fa-trophy"></i>Awards</a></li>{{/if}}
+    {{#if r.references}}<li><a href="#references"><i class="mr-10 fa fa-thumbs-up"></i>References</a></li>{{/if}}
+  </ul>
+</nav>

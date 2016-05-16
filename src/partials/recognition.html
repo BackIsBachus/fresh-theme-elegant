@@ -1,0 +1,23 @@
+{{#if r.recognition}}
+<div id="awards" class="detail">
+  <div class="icon"><i class="fs-lg fa fa-trophy"></i><span class="mobile-title">Awards</span></div>
+  <div class="info">
+    <h4 class="title text-uppercase">Awards</h4>
+    <div class="content">
+      <ul class="list-unstyled clear-margin">
+        {{#each r.recognition}}
+        <li class="card card-nested">
+          <div class="content">
+            <p itemprop="award" class="clear-margin"><strong>{{title}} </strong><a href="{{url}}" target="_blank">{{from}}</a></p>
+            <p class="text-muted"><small>Awarded on: {{date}}</small></p>
+            <div class="mop-wrapper">
+              {{{summary}}}
+            </div>
+          </div>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+{{/if}}

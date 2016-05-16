@@ -1,0 +1,20 @@
+{{#if r.projects}}
+<div id="projects" class="detail">
+  <div class="icon"><i class="fs-lg fa fa-star"></i><span class="mobile-title">Projects</span></div>
+  <div class="info">
+    <h4 class="title text-uppercase">Projects</h4>
+    <ul class="list-unstyled">
+      {{#each r.projects}}
+      <li class="card card-nested clearfix">
+        <div class="content">
+          <p class="clear-margin relative"><strong>{{role}}</strong>,&nbsp;<a href="{{url}}" target="_blank">{{title}}</a></p>
+          {{> date}}
+          {{{summary}}}
+          {{> highlights}}
+        </div>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+{{/if}}

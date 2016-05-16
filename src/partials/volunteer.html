@@ -1,0 +1,22 @@
+{{#if r.service}}
+<div id="volunteer-work" class="detail">
+  <div class="icon"><i class="fs-lg fa fa-child"></i><span class="mobile-title">Volunteer Work</span></div>
+  <div class="info">
+    <h4 class="title text-uppercase">Volunteer Work</h4>
+    <div class="content">
+      <ul class="list-unstyled">
+        {{#each r.service.history}}
+        <li class="card card-nested">
+          <div class="content">
+            <p class="clear-margin relative"><strong>{{position}}, </strong><a href="{{url}}" target="_blank">{{organization}}</a></p>
+            {{> date}}
+            {{{summary}}}
+            {{> highlights}}
+          </div>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+{{/if}}

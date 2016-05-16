@@ -1,0 +1,23 @@
+{{#if r.references}}
+<div id="references" class="detail">
+  <div class="icon"><i class="fs-lg fa fa-thumbs-up"></i><span class="mobile-title">References</span></div>
+  <div class="info">
+    <h4 class="title text-uppercase">References</h4>
+    <div class="content">
+      <ul class="list-unstyled clear-margin">
+        {{#each r.references}}
+        {{#unless private}}
+        <li class="card card-nested"><strong>{{name}}, </strong>{{role}}
+          <blockquote class="quote">
+            <div class="mop-wrapper">
+              {{{summary}}}
+            </div>
+          </blockquote>
+        </li>
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+{{/if}}

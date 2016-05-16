@@ -1,0 +1,21 @@
+{
+  "name": "fresh-theme-elegant",
+  "version": "0.1.0",
+  "description": "Responsive resume theme using using the fresh theme from JSON-Resume.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BackIsBachus/fresh-theme-elegant"
+  },
+  "keywords": [
+    "fresh-themes",
+    "hackmyresume",
+    "fresh",
+    "fresca"
+  ],
+  "author": "BackIsBachus (https://github.com/BackIsBachus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BackIsBachus/fresh-theme-elegant/issues"
+  },
+  "homepage": "https://github.com/BackIsBachus/fresh-theme-elegant#readme"
+}

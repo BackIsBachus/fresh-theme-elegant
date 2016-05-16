@@ -1,0 +1,26 @@
+{{#if r.education}}
+<div id="education" class="detail">
+  <div class="icon"><i class="fs-lg fa fa-graduation-cap"></i><span class="mobile-title">Education</span></div>
+  <div class="info">
+    <h4 class="title text-uppercase">Education</h4>
+    <div class="content">
+      <ul class="list-unstyled">
+        {{#each r.education.history}}
+        <li class="card card-nested">
+          <div class="content">
+            <p class="clear-margin relative"><strong>{{area}}{{title}}{{#if studyType}} ({{studyType}}){{/if}},&nbsp;</strong><a href="{{url}}" target="_blank">{{institution}}</a></p>
+            {{> date}}
+            <div class="space-top labels">
+              {{#each curriculum}}
+              <span class="label label-keyword">{{this}}</span>
+              {{/each}}
+            </div>
+            {{> highlights}}
+          </div>
+        </li>
+        {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+{{/if}}
