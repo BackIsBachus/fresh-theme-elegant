@@ -51,6 +51,7 @@ All the profiles not on this list may not have an icon and will not have any cus
 * youtube
 * medium
 * blogger
+* steam
 
 
 ## How to use it
