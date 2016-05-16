@@ -19,7 +19,16 @@
         <div class="social-links text-center">
             <div>
               {{#each r.social}}
+              {{#compare @key 5}}
+            </div>
+            <div>
+              {{/compare}}
+              {{#compare @key 10}}
+            </div>
+            <div>
+              {{/compare}}
                 <a href="{{url}}" target="_blank" data-toggle="tooltip" title="{{user}} on {{network}}" class="fs-2x social-link"><i class="link-{{toLower network}} fa fa-{{toLower network}}"></i></a>
+
               {{/each}}
             </div>
         </div>
