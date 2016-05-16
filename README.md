@@ -20,6 +20,39 @@ The sectionss currently available are:
 * References
 If a section is not used in your FRESH resume it will simply not be displayed
 
+### Supported Profiles
+All the profiles not on this list may not have an icon and will not have any custom color.
+* angellist
+* behance
+* bitbucket
+* codepen
+* dribbble
+* dribble
+* exercism
+* facebook
+* foursquare
+* instagram
+* github
+* googleplus
+* gratipay
+* hackernews
+* lastfm
+* linkedin
+* pinterest
+* reddit
+* skype
+* soundcloud
+* spotify
+* stackexchange
+* stackoverflow
+* tumblr
+* twitter
+* vimeo
+* youtube
+* medium
+* blogger
+
+
 ## How to use it
 Go where your FRESH JSON resume is located and run:
 ```

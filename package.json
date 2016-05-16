@@ -1,7 +1,7 @@
 {
   "name": "fresh-theme-elegant",
   "version": "0.1.0",
-  "description": "Responsive resume theme using using the fresh theme from JSON-Resume.",
+  "description": "Responsive resume theme for FRESH using using the Elegant theme from JSON-Resume.",
   "repository": {
     "type": "git",
     "url": "https://github.com/BackIsBachus/fresh-theme-elegant"
