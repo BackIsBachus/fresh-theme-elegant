@@ -18,6 +18,7 @@ The sectionss currently available are:
 * Interests
 * Awards (recognition)
 * References
+
 If a section is not used in your FRESH resume it will simply not be displayed
 
 ### Supported Profiles
